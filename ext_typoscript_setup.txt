@@ -1,0 +1,10 @@
+plugin.tx_srfeuserregister_pi1 {
+	username_as_number = {$plugin.tx_srfeuserregister_pi1.username_as_number}
+	serialNumberLength = {$plugin.tx_srfeuserregister_pi1.serialNumberLength}
+	
+	userPraefix = TEXT
+	userPraefix.data = GPVar : pfix
+	userPraefix.ifEmpty.cObject = TEXT
+	userPraefix.ifEmpty.cObject.value = {$plugin.tx_srfeuserregister_pi1.userPraefix}
+	
+}
