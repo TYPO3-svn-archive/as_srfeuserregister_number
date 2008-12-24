@@ -1,0 +1,12 @@
+plugin.tx_srfeuserregister_pi1 {
+
+    # cat=plugin.tx_srfeuserregister_pi1/enable; type=boolean; label= Generate PR-Number as username: If set, a configurable number will be generated as the username.
+    username_as_number = 1
+	
+    # cat=plugin.tx_srfeuserregister_pi1//; type=string; label= Praefix of the User-Number: Adds a prefix to the usernumber.
+	userPraefix = 11
+	
+	# cat=plugin.tx_srfeuserregister_pi1//; type=string; label= Length of the serial number of the User-Number: Length of the serial number of the User-Number.
+	serialNumberLength = 6
+	
+}
